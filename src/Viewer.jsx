@@ -45,7 +45,7 @@ export default function Viewer({ onViewTreehouse }) {
     hemiLight.position.set(0, 200, 0);
     scene.add(hemiLight);
 
-    const shouldLoadModel = false;
+    const shouldLoadModel = true;
 
     if (shouldLoadModel) 
       {
@@ -54,7 +54,7 @@ export default function Viewer({ onViewTreehouse }) {
     const base = import.meta.env.BASE_URL;
 
     loader.load(
-      `${base}modeel2.glb`, // ✅ dynamic, respects base path
+      `${base}model2.glb`, // ✅ dynamic, respects base path
       (gltf) => {
         scene.add(gltf.scene);
         console.log("Model loaded.");
