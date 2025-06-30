@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+public/modeel2.glb
+
+dist/model2.glb

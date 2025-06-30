@@ -1,0 +1,2 @@
+public/modeel2.glb filter=lfs diff=lfs merge=lfs -text
+dist/modeel2.glb filter=lfs diff=lfs merge=lfs -text
